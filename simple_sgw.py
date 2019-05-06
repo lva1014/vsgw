@@ -107,4 +107,4 @@ while True:
         print ("sending: " + str(csreq_packet))
         conn.send(data.encode())
 
-#conn.close()
+conn.close()
